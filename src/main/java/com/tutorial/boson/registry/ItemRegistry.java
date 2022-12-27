@@ -6,6 +6,7 @@ import com.tutorial.boson.food.ObsidianApple;
 import com.tutorial.boson.group.ModGroup;
 import com.tutorial.boson.item.ObsidianIngot;
 import com.tutorial.boson.item.MagicIngot;
+import com.tutorial.boson.network.ObsidianMessage;
 import com.tutorial.boson.tool.ObsidianPickaxe;
 import com.tutorial.boson.weapon.ObsidianSword;
 import net.minecraft.inventory.EquipmentSlotType;
@@ -37,4 +38,9 @@ public class ItemRegistry {
     public static RegistryObject<Item> obsidianCounterBlock = ITEMS.register("obsidian_counter", () -> new BlockItem(BlockRegistry.obsidianCounterBlock.get(), new Item.Properties().group(ModGroup.itemGroup)));
     public static RegistryObject<Item> obsidianHelloBlock = ITEMS.register("obsidian_hello_block", () -> new BlockItem(BlockRegistry.obsidianHelloBlock.get(), new Item.Properties().group(ModGroup.itemGroup)));
     public static RegistryObject<Item> obsidianZombieBlock = ITEMS.register("obsidian_zombie_block", () -> new BlockItem(BlockRegistry.obsidianZombieBlock.get(), new Item.Properties().group(ModGroup.itemGroup)));
+    public static RegistryObject<Item> obsidianTerBlock = ITEMS.register("obsidian_ter_block", () -> new BlockItem(BlockRegistry.obsidianTERBlock.get(), new Item.Properties().group(ModGroup.itemGroup)));
+
+    /* network */
+    public static RegistryObject<Item> obsidianMessage = ITEMS.register("obsidian_message", ObsidianMessage::new);
+
 }
