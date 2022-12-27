@@ -1,0 +1,14 @@
+{
+  "item.boson.obsidian_ingot": "黑曜石锭",
+  "item.boson.obsidian_apple":"黑曜石苹果",
+  "item.boson.obsidian_sword":"黑曜石剑",
+  "item.boson.obsidian_helmet":"黑曜石头盔",
+  "item.boson.obsidian_chestplate":"黑曜石胸甲",
+  "item.boson.obsidian_leggings":"黑曜石剑",
+  "item.boson.obsidian_boots":"黑曜石靴",
+  "itemGroup.obsidian_group": "黑曜石物品栏",
+  "message.boson.counter": "计数: %d",
+  "message.hello_block.hello": "你好"
+
+}
+

@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "boson:block/obsidian_hello_block" }
+  }
+}

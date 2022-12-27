@@ -1,0 +1,12 @@
+{
+  "item.boson.obsidian_ingot": "Obsidian Ingot",
+  "item.boson.obsidian_apple":"Obsidian Apple",
+  "item.boson.obsidian_sword":"Obsidian Sword",
+  "item.boson.obsidian_helmet":"Obsidian Helmet",
+  "item.boson.obsidian_chestplate":"Obsidian Chestplate",
+  "item.boson.obsidian_leggings":"Obsidian Leggings",
+  "item.boson.obsidian_boots":"Obsidian Boots",
+  "itemGroup.obsidian_group": "Obsidian Group",
+  "message.boson.counter": "Count: %d",
+  "message.hello_block.hello": "你好"
+}
